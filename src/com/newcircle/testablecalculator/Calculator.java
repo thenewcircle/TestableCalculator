@@ -15,8 +15,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.newcircle.calculatorlib.Logic;
-import com.newcircle.newcalculator.R;
-import com.newcircle.newcalculator.R.color;
+import com.newcircle.testablecalculator.R;
+import com.newcircle.testablecalculator.R.color;
 import com.newcircle.testablecalculator.ShakeListener.OnShakeListener;
 
 public class Calculator extends Activity implements View.OnClickListener, TextWatcher, OnShakeListener{
