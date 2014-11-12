@@ -114,8 +114,7 @@ public class Calculator extends Activity implements View.OnClickListener, TextWa
 			mActiveNumber.setBackgroundColor(getResources().getColor(color.editSelectedTrue));
 			updateFunction = false;
 		} else if(v == findViewById(R.id.digit0)) {
-			if(mActiveNumber.getText().toString().length() > 0)
-				mActiveNumber.setText(mActiveNumber.getText().toString() + "0");
+			mActiveNumber.setText(mActiveNumber.getText().toString() + "0");
 		} else if(v == findViewById(R.id.digit1) ||
 				v == findViewById(R.id.digit2) ||
 				v == findViewById(R.id.digit3) || 
